@@ -1,0 +1,27 @@
+[
+    {
+        "service":"Gardening Services",
+        "price":"$100",
+        "image": "img/yard-1.jpeg",
+        "imagetext": "a backyard with dogs",
+        "rating":"4.7(306k)"
+    },
+
+    {
+        "service":"Handy Man Services",
+        "price":"$200",
+        "image": "img/handyman-1.jpeg",
+        "imagetext": "a man with a ban saw",
+        "rating":"4.7(306k)"
+
+    },
+
+    {
+        "service":"Power Washing",
+        "price":"$300",
+        "image": "img/powerwash-1.jpeg",
+        "imagetext": "a man with a power washer gun",
+        "rating":"4.7(306k)"
+    }
+
+]

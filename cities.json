@@ -1,33 +1,56 @@
 [
     {
-        
-        "productname":"Fake Boobs",
-        "price":"JMD $1000",
-        "image":"lace-wig1.jpeg",
-        "ratings":4
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
         
     },
     {
-        "productname":"Fake Boobs",
-        "price":"JMD $1000",
-        "image":"lace-wig1.jpeg",
-        "ratings":4
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
         
     },
     {
-        "productname":"Fake Boobs",
-        "price":"JMD $1000",
-        "image":"lace-wig1.jpeg",
-        "ratings":4
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
         
     },
     {
-        "productname":"Fake Boobs",
-        "price":"JMD $1000",
-        "image":"lace-wig1.jpeg",
-        "ratings":4
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
+        
+    },
+    {
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
+        
+    },
+    {
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
+        
+    },
+    {
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
+        
+    },
+    {
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
+        
+    },
+    {
+        "id":1,
+        "city":"Alberta",
+        "abbrev":"AB"
         
     }
-    ]
-    
-    
+]
