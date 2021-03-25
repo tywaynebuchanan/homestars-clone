@@ -79,7 +79,35 @@ input{
     border-radius: 10px;
 }
 
-input:focus::-webkit-input-placeholder {
+/* input:focus::-webkit-input-placeholder {
     color: #033359;
+  } */
+
+.error{
+      border: 1px solid red;
   }
+
+.em{
+    font-size: 14px;
+    
+    margin-top: 0;
+    color:red;
+}
+
+.icon{
+    display: none;
+}
+
+ .fa-exclamation-triangle{
+    position: absolute;
+    padding: 20px;
+   text-align:left;
+   top: 30%;
+   left: 58%;
+   color: red;
+   display: none;
+   
+
+}
+
  

@@ -41,7 +41,7 @@ const getImage = async() =>{
                         </div>
                     <img src="${e.image}" class = "card__img" alt="${e.imagetext}">
                         <div class="card-button">
-                        <a href="#">From ${e.price} / Book Now</a>
+                        <a href="${e.link}">From ${e.price} / Book Now</a>
                         </div>
                         </div>`   
     });
@@ -66,5 +66,6 @@ const getInfo = async() =>{
 
 getInfo();
 
+    
 
 
