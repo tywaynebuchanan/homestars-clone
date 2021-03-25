@@ -79,10 +79,6 @@ input{
     border-radius: 10px;
 }
 
-/* input:focus::-webkit-input-placeholder {
-    color: #033359;
-  } */
-
 .error{
       border: 1px solid red;
   }
@@ -101,18 +97,10 @@ input{
     position: absolute;
     padding: 20px;
    text-align:left;
-   top: 32.5%;
-   left: 58%;
+   top: 240px;
+   left: 910px;
    color: red;
 }
 
-.far .fa-check-circle{
-    position: absolute;
-    padding: 20px;
-   text-align:left;
-   top: 32.5%;
-   left: 58%;
-   color: green;
-}
 
  
