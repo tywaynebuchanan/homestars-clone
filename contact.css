@@ -89,7 +89,6 @@ input{
 
 .em{
     font-size: 14px;
-    
     margin-top: 0;
     color:red;
 }
@@ -102,10 +101,10 @@ input{
     position: absolute;
     padding: 20px;
    text-align:left;
-   top: 30%;
+   top: 32.5%;
    left: 58%;
    color: red;
-   display: none;
+   
    
 
 }
