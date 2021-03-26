@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.ico/favicon-96x96.png">
+    <link rel="stylesheet" href="acstyles.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <!-- <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script> -->
+    <title>Set up Account</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="/index.html"><img src="/img/logo.png" class="logo__first" alt="Rubi Logo"></a>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="wrapper">
+            <div class="row-1">
+                <div class="col-1">
+                    <div class="title">
+                        <h1>Finish creating your account</h1>
+                        <p>Your address allows us to locate the best Pros<br> in your area.</p>
+                    </div>
+                    <div class="form">
+                        <form id="signupForm" class="signupForm" name="signupForm">
+                                <div class="input-1">
+                                    <div class="line-up">
+                                        <label for ="firstname">First Name</label>
+                                        <input type="text" name="firstname" id="fname">
+                                        <p id="errFname" class="error"></p>
+                                    </div>
+                                    <div class="line-up">
+                                        <label for ="lastname">Last Name</label>
+                                        <input type="text" name="lastname" id="lname">
+                                        <p id="errLname" class="error"></p>
+                                    </div>
+                                </div>
+                                <div class="input-2">
+                                    <label for ="address">Street Address 1</label>
+                                    <input type="text" name="address" id="address">
+                                    <p id="errAdd" class="error"></p>
+                                </div>
+                                
+
+                                <div class="input-3">
+                                    <div class="line-up">
+                                        <label for ="city">City</label>
+                                        <input type="text" name="city" id="city">
+                                        <p id="errCity" class="error"></p>
+                                    </div>
+                                    <div class="line-up">
+                                        <label for ="state">State</label>
+                                        <select name="states" id="states">
+                                            <option value="0">Select State</option>
+                                        </select>
+                                        <p id="errState" class="error"></p>
+                                    </div>
+                                    <div class="line-up">
+                                        <label for ="zipcode">Zip Code</label>
+                                        <input type="text" name="zipcode" id="zipcode" maxlength="5">
+                                        <p id="errZip" class="error"></p>
+                                    </div>
+                                </div>
+
+                                
+
+
+                           
+                            <div class="formfooter">
+                                <button type="button" class="btn" id="btn-1">Continue</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="content">
+                © Copyright 1995-2021, Rubi. All Rights Reserved. | <a href ="#">Terms of Use</a> | <a href ="#">Privacy Policy</a> | 
+                <a href ="">California Privacy</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="account.js"></script>
+</body>
+</html>
