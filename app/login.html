@@ -9,7 +9,7 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script>
-    <title>Sign Up - Rubi</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="container">
@@ -24,7 +24,7 @@
             <div class="row-1">
                 <div class="col-1">
                     <div class="title">
-                        <h1>Sign Up <span>or</span> <a href="login.html">Sign In</a></h1>
+                        <h1>Sign In <span>or</span> <a href="signup.html">Sign Up</a></h1>
                     </div>
                     <div class="form">
                         <form id="signupForm" class="signupForm">
@@ -36,20 +36,17 @@
                                 <div class="input-2">
                                     <label for ="password">Password</label>
                                     <input type="password" name="password" id="password">
-                                    <p id="errPass"></p>
+                                    <p id="errPass" class="errPass"></p>
                                 </div>
-                                <div class="input-3">
-                                    <input type="checkbox" name="check" id="emails">
-                                <label>I’d like to receive special email offers and discounts</label>
-                                </div>
-                                <div class="input-4">
-                                    <input type="checkbox" name="check2" id="membership">
-                                    <label>I agree to the terms of the <a href ="">Membership Agreement</a></label>
-                            </div>
+                                
                            
                             <div class="formfooter">
-                                <button class="btn" disabled>Continue</button>
-                                <p>Already have an account? <a href ="login.html">Sign In</a></p>
+                                <button class="btn" disabled>Sign In</button>
+                                <div class="login">
+                                    <span><a href ="#">Send Sign In Link </a></span> | <a href ="#">Forget Password</a> | 
+                                    <a href ="#">Don't have a Password</a>
+                                </div>
+                               
                             </div>
                             
                         </form>
@@ -81,8 +78,5 @@
 
         </div>
     </footer>
-    
-    
-    <script src="contact.js"></script>
 </body>
 </html>

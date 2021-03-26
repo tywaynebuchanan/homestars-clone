@@ -97,6 +97,7 @@ body{
     border-radius: 10px;
     outline: none;
     border: 1px solid #CCCCCC;
+    box-sizing: border-box;
 }
 
 .signupForm input[type=checkbox]{
@@ -127,6 +128,10 @@ body{
 }
 .input-4 label{
     color: rgb(40, 40, 39)
+}
+
+.errPass {
+    margin-bottom: 40px;
 }
    
 
@@ -161,11 +166,20 @@ body{
     border: none;
     border-radius: 10px;
     min-width: 100%;
+    box-sizing: border-box;
 
 }
 
 .btn:focus{
     outline: none;
+}
+
+.login a{
+    font-size: 14px;
+}
+
+.login span{
+    font-weight: 900;
 }
 
 .col-2{
@@ -209,4 +223,16 @@ body{
     padding: 30px;
     align-items: center;
 }
- 
+
+.content a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 5px;
+}
+
+.content a:hover{
+    text-decoration: underline;
+
+}
+
