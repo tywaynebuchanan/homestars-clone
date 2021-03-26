@@ -42,3 +42,4 @@ const updatedInfo = ()=>{
 }
 
 inputBox.addEventListener('change',updatedInfo);
+

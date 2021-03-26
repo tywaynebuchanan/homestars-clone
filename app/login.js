@@ -6,15 +6,14 @@ const errEmail  = document.getElementById('errEmail')
 let isvalidEmail = false, isvalidPass = false;
 btn.disabled = true;
 
-email.addEventListener('change',()=>{
+email.addEventListener('blur',()=>{
    if(email.value == ""){
         errEmail.style.color = "red";
         errEmail.innerText = "is this email valid?";
         email.style.border = "2px solid red"
+        email.focus()
         isvalidEmail = false
-        
-
-   }else{
+      }else{
     errEmail.style.color = "";
     errEmail.innerText = "";
     email.style.border = "2px solid green"
@@ -22,12 +21,13 @@ email.addEventListener('change',()=>{
    }
 })
 
-password.addEventListener('keydown',()=>{
+password.addEventListener('blur',()=>{
     if(email.value == ""){
          errPass.style.color = "red";
          errPass.innerText = "is this Pass valid?";
          password.style.border = "2px solid red"
          isvalidPass = false
+         password.focus()
     }else{
      errPass.style.color = "";
      errPass.innerText = "";

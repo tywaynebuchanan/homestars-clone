@@ -8,11 +8,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
-    background-color:#CCCCCC;
-
-    
-    
-    
+    background-color: #FAFAFA; 
 }
 
 .logo__first {
@@ -39,15 +35,10 @@ body{
     
 }
 
-.row a{
-    color: rgb(40, 40, 39);
-    font-size: 20px;
-    text-decoration: none;
-}
 
 .wrapper{
-    max-width: 1100px;
-    height: 600px;
+    max-width: 500px;
+    height: 560px;
     margin: 0 auto;
     background-color: white;
     margin-top: 20px;
@@ -55,26 +46,34 @@ body{
     
 }
 
-.row-1{
+/* .row-1{
     display: grid;
     grid-template-columns: 500px 500px;
     justify-content: space-around;
-}
+} */
 
 .col-1{
-   margin: 15px 10px;
-   padding: 30px;
+   /* margin: 15px 10px; */
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  
   
 }
 
 .title h1{
     font-size: 30px;
     font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 0;
+    
 }
 
-.title span{
-    font-size: 20px;
-    font-weight: 400;
+.title p{
+    font-size: 16px;
+    text-align: center;
+  margin-bottom: 40px;
 }
 
 .title a{
@@ -84,15 +83,17 @@ body{
     font-weight: 400;
 }
 
-.signupForm{
-    padding: 10px;
-    /* display: inline-block; */
+
+.line-up{
+    display: table-cell;
+    padding: 0px 4px 0px;
 }
 
-.signupForm input[type=email], input[type=password]{
-    display: block;
+
+.input-1 input{
+    display: table-column;
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 10px;
     margin: 8px 0;
     border-radius: 10px;
     outline: none;
@@ -100,47 +101,65 @@ body{
     box-sizing: border-box;
 }
 
-.signupForm input[type=checkbox]{
-    background-color:grey;
-}
-
-.input-1{
-    margin-bottom: 30px;
-}
-
 .input-1 label{
     color: rgb(40, 40, 39)
 }
 
-.input-2{
-    margin-bottom: 20px;
+.input-1 p{
+    margin-top: 0px;
+    padding-top: 0;
+    color: #D31202;
+}
+
+.error{
+    /* border: 1px solid #D31202; */
+    color: #d31202;
+    font-size: 10px;
+}
+
+.input-2 input{
+    /* margin-bottom: 20px; */
+    display: table;
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
 }
 
 .input-2 label{
     color: rgb(40, 40, 39)
 }
-.input-3{
-    padding: 10px 0px;
+.input-3 input{
+    display: table;
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
 }
 
-.input-3 label{
-    color: rgb(40, 40, 39)
-}
-.input-4 label{
-    color: rgb(40, 40, 39)
+.input-3 select{
+    /* display: table; */
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
 }
 
-.errPass {
-    margin-bottom: 40px;
+label{
+    font-weight: 500;
+    color: rgb(40, 40, 39);
+    letter-spacing: 1;
 }
-   
 
-
-
-.input-4 label a{
-    text-decoration: none;
-    color:rgb(0, 96, 153);
-}
 
 .formfooter{
     text-align: center;
@@ -174,39 +193,7 @@ body{
     outline: none;
 }
 
-.login a{
-    font-size: 14px;
-}
 
-.login span{
-    font-weight: 900;
-}
-
-.col-2{
-    border-left: 1px solid #FAFAFA;
-    margin: 15px 0;
-    padding: 30px;
-}
-
-.title-2 h1{
-    color: #FF6153;
-    font-size: 28px;
-    font-weight: 400;
-    text-align: center;
-}
-.list p{
-    list-style-type: none;
-    padding: 10px;
-    font-size: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    color: rgb(40, 40, 39)
-}
-
-.fa-check-circle{
-    padding: 0px 5px;
-    color:#FF6153;
-}
 
 .footer{
     margin-top: 20px;
@@ -234,5 +221,9 @@ body{
 .content a:hover{
     text-decoration: underline;
 
+}
+
+.btn:disabled{
+    background-color:#CCCCCC;
 }
 
