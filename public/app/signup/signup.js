@@ -19,7 +19,7 @@ function signUp() {
     let  password = document.getElementById('password');
     const promise = auth.createUserWithEmailAndPassword(email.value,password.value)
         promise.catch(e => alert(e.message));
-        location.replace('./app/account/account.html');
+        location.replace('../account/account.html');
 }
 
 button.addEventListener('click',signUp);
