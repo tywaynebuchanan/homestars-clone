@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicon.ico/favicon-96x96.png">
+    <link rel="stylesheet" href="login.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="/public/index.html"><img src="/public/img/logo.png" class="logo__first" alt="Rubi Logo"></a>
+            <p><a href="#">Visit Business Center</a></p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="wrapper">
+            <div class="row-1">
+                <div class="col-1">
+                    <div class="title">
+                        <h1>Sign In <span>or</span> <a href="/public/app/signup/signup.html">Sign Up</a></h1>
+                    </div>
+                    <div class="form">
+                        <form id="signupForm" class="signupForm">
+                                <div class="input-1">
+                                    <label for ="email">Email</label>
+                                    <input type="email" name="email" id="email">
+                                    <p id="errEmail"></p>
+                                </div>
+                                <div class="input-2">
+                                    <label for ="password">Password</label>
+                                    <input type="password" name="password" id="password">
+                                    <p id="errPass" class="errPass"></p>
+                                </div>
+                            <div class="formfooter">
+                                <button type="button" class="btn" id="btn">Sign In</button>
+                                <div class="login">
+                                    <span><a href ="#">Send Sign In Link </a></span> | <a href ="#">Forget Password</a> | 
+                                    <a href ="#">Don't have a Password</a>
+                                </div>
+                               
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="title-2">
+                        <h1>Rubi makes it easy to do more for your home</h1>
+                    </div>
+                    <div class="list">
+                     
+                            <p><i class="far fa-check-circle"></i>Access to highly rated pros nationwide</p>
+                            <p><i class="far fa-check-circle"></i>More than 10 million verified reviews</p>
+                            <p><i class="far fa-check-circle"></i>Savings on service with deals and offers from local pros</p>
+                            <p> <i class="far fa-check-circle"></i>Thousands of how-to, DIY and expert-sourced articles</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="content">
+                © Copyright 1995-2021, Rubi. All Rights Reserved. | <a href ="#">Terms of Use</a> | <a href ="#">Privacy Policy</a> | 
+                <a href ="">California Privacy</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
