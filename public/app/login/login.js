@@ -79,9 +79,9 @@ const errEmail  = document.getElementById('errEmail')
 // //   }
 
 function signIn() {
-    let email = "tywayne@gmail.com";
-    let  password = "jamaica1";
-    const promise = auth.signInWithEmailAndPassword(email,password)
+    let email = document.getElementById('email')
+    let  password = document.getElementById('password')
+    const promise = auth.signInWithEmailAndPassword(email.value,password.value)
         promise.catch(e => alert(e.message));
         // alert('Signed in!')
         window.location.href='success.html';
