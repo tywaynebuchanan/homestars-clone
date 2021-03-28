@@ -13,13 +13,27 @@ let firebaseConfig = {
 
 const auth = firebase.auth();
 const button = document.getElementById('btn');
+const showMessage = () =>{
+  const div = document.createElement('div');
+  div.innerHTML = "Please proceed to Login"
+  div.classList.add('toast','toast--visible');
+  document.body.appendChild(div);
+  setTimeout(()=>{
+    div.classList.remove('toast--visible')
+  },3000);
+}
+
 
 function signUp() {
     let email = document.getElementById('email');
     let  password = document.getElementById('password');
     const promise = auth.createUserWithEmailAndPassword(email.value,password.value)
         promise.catch(e => alert(e.message));
-        location.replace('../account/account.html');
+        window.location.href = "account.html"
+        // showMessage();
+        // setTimeout(()=>{
+        //   location.reload();
+        // },1000)
 }
 
 button.addEventListener('click',signUp);

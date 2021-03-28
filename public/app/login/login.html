@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16"  href="./img/favicon.ico/favicon-96x96.png">
     <link rel="stylesheet" href="login.css">
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
     <!--Font Awesome-->
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script>
@@ -24,10 +27,10 @@
             <div class="row-1">
                 <div class="col-1">
                     <div class="title">
-                        <h1>Sign In <span>or</span> <a href="../signup/signup.html">Sign Up</a></h1>
+                        <h1>Sign In <span>or</span> <a href="signup.html">Sign Up</a></h1>
                     </div>
                     <div class="form">
-                        <form id="signupForm" class="signupForm">
+                        <div id="signupForm" class="signupForm">
                                 <div class="input-1">
                                     <label for ="email">Email</label>
                                     <input type="email" name="email" id="email">
@@ -47,7 +50,7 @@
                                
                             </div>
                             
-                        </form>
+                        </div>
                     </div>
                 </div>
                 <div class="col-2">
