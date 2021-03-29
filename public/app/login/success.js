@@ -14,6 +14,23 @@ let firebaseConfig = {
 const auth = firebase.auth();
 
 const btn = document.getElementById('btn');
+const displayUser = document.getElementById('user');
+
+auth.onAuthStateChanged(function(user) {
+    if (user) {
+        alert('User logged in')
+    } else {
+        alert("user not logged in")
+    }
+  });
+
+//   let user = auth.currentUser;
+
+//   if (user) {
+    
+//   } else {
+//     displayUser.innerHTML = "No user logged in";
+//   }
 
 const signOut = ()=>{
     auth.signOut();
